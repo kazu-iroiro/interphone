@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>SkyWay Tutorial</title>
+</head>
+
+<body>
+    <p>ID: <span id="my-id"></span></p>
+    <div>
+        room name: <input id="room-name" type="text" />
+        <button id="join">join</button>
+    </div>
+    <video id="local-video" width="400px" muted playsinline></video>
+    <div id="button-area"></div>
+    <div id="remote-media-area"></div>
+    <div class="Id-Key">
+        <p>Application ID:<input id="App-id" type="text" /></p>
+        <p>Secret Key:<input id="Secret-key" type="text" /></p>
+        <p>Token:<input id="Token" type="text" /></p>
+        <p><button id="save" class="save-btn" onclick="IdKeySave()">保存</button></p>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/@skyway-sdk/room/dist/skyway_room-latest.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>

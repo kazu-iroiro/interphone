@@ -1,0 +1,85 @@
+body {
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    margin: 0px;
+    padding: 1vh;
+    background-color: rgb(158, 238, 124);
+}
+
+.header-text {
+    margin: 0px;
+    padding: 0px;
+}
+
+#id-disp{
+    visibility:hidden;
+}
+
+.btn-str {
+    text-align: center;
+    font-size: 5vw;
+    font-weight: bold;
+}
+
+#NonMute-btn {
+    z-index: 9;
+    visibility: hidden;
+    text-align: left;
+    position: absolute;
+    user-select: none;
+    border-radius: 50%;
+    width: 50vw;
+    height: 50vw;
+    border: none;
+    outline: none;
+    background-color: rgb(147, 235, 235);
+    top: 35vh;
+    right: 25vw;
+}
+
+.join-btn {
+    z-index: 10;
+    text-align: left;
+    position: absolute;
+    user-select: none;
+    border-radius: 50%;
+    width: 50vw;
+    height: 50vw;
+    border: none;
+    outline: none;
+    background: rgb(219, 161, 66);
+    top :35vh;
+    right: 25vw;
+
+}
+
+#leave {
+    visibility: hidden;
+    position: absolute;
+    user-select: none;
+    border-radius: 50%;
+    width: 25vw;
+    height: 25vw;
+    border: none;
+    outline: none;
+    background: rgb(252, 63, 63);
+    top :55vh;
+    right: 10vw;
+}
+
+#button-area {
+    display: none;
+}
+
+#remote-media-area {
+    display: none;
+}
+
+.Id-Key{
+    position: relative;
+    margin-top: 50vh;
+}
